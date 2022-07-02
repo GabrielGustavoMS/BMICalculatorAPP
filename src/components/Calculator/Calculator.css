@@ -1,0 +1,31 @@
+input {
+  padding: 16px;
+  margin-top: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: 1px solid #c8c9ca;
+}
+
+input.btn {
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 1.3rem;
+  transition-duration: 0.5s;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.btn:hover {
+  background-color: rgb(68, 123, 224);
+}
