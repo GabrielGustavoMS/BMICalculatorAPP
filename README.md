@@ -11,6 +11,7 @@ This is a simple app that can calculate a person's BMI using weight and height. 
 - JavaScript
 - ReactJS
 - Axios
+- Code Sandbox
 
 ## Result
 
