@@ -1,2 +1,1 @@
-# BMICalculatorAPP
-Created with CodeSandbox
+# BMI Calculator APP
