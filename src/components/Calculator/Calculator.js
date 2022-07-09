@@ -16,8 +16,10 @@ export default function (props) {
 
   const getBMIInfo = () => {
     props.updateIsLoading(true);
-    handleSubmition();
-    props.updateIsLoading(false);
+    setTimeout(() => {
+      handleSubmition();
+      props.updateIsLoading(false);
+    }, 1000);
   };
 
   const handleSubmition = () => {

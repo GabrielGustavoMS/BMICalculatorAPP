@@ -5,8 +5,11 @@ export default function Loader(props) {
     <div>
       {props.isLoading && (
         <section className="loading-overlay">
-          <div class="loader"></div>
-          <p>Loading</p>
+          <article>
+            <div class="loader"></div>
+
+            <p>Loading</p>
+          </article>
         </section>
       )}
     </div>
